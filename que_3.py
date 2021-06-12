@@ -1,0 +1,5 @@
+x=input()
+y=input()
+full=len(x)
+single=(x.count(y))
+print(int((single/full)*100))
